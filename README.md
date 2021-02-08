@@ -12,13 +12,13 @@ Anda adalah seorang Data Scientist di tim basket International yang berencana un
 
 Baru-baru ini manager tim mengatakan ingin mengganti 10 pemain. Dan berharap Anda, sebagai Data Scientist, untuk dapat menemukan pemain baru yang berbakat dengan cepat.
 
-Data pilihan pemain bisa Anda download di repository ini dengan nama file: [__new_players.csv__](https://github.com/ridhoaryo/Ujian_Modul3_JCDS_Bekasi/blob/master/new_players.csv). Dalam dataset ini tidak terdapat nama pemain. Maka Anda akan memilih mereka berdasarkan data-data historical mereka.
+Data pilihan pemain bisa Anda download di repository ini dengan nama file: [__new_players.csv__](https://github.com/ridhoaryo/Ujian_Modul3_JCDS_JKT_BDG/blob/master/new_players.csv). Dalam dataset ini tidak terdapat nama pemain. Maka Anda akan memilih mereka berdasarkan data-data historical mereka.
 
-Untuk memudahkan proses recruitment, Anda akan menggunakan dataset [__nba_players.csv__](https://github.com/ridhoaryo/Ujian_Modul3_JCDS_Bekasi/blob/master/nba_players.csv) sebagai dasar untuk membangun model machine learning untuk menentukan pemain-pemain baru yang pantas Anda rekrut. Kolom `potential_player` pada dataset NBA adalah acuan Anda. 0 berarti pemain tersebut tidak memiliki potensi dan cenderung untuk tidak direkrut. Dan sebaliknya.
+Untuk memudahkan proses recruitment, Anda akan menggunakan dataset [__nba_players.csv__](https://github.com/ridhoaryo/Ujian_Modul3_JCDS_JKT_BDG/blob/master/nba_players.csv) sebagai dasar untuk membangun model machine learning untuk menentukan pemain-pemain baru yang pantas Anda rekrut. Kolom `potential_player` pada dataset NBA adalah acuan Anda. 0 berarti pemain tersebut tidak memiliki potensi dan cenderung untuk tidak direkrut. Dan sebaliknya.
 
 __Requirements:__
 
-Buatlah sebuah file __Jupyter Notebook (.ipynb)__, bernama "[Nama_Anda]_basketball_team_recruitment.ipynb". Download & gunakan dataset NBA di repository ini dengan nama file: [__nba_players.csv__](https://github.com/ridhoaryo/Ujian_Modul3_JCDS_Bekasi/blob/master/nba_players.csv). Dan penjelasan tiap kolom dapat dilihat [di sini](https://www.kaggle.com/justinas/nba-players-data)
+Buatlah sebuah file __Jupyter Notebook (.ipynb)__, bernama "[Nama_Anda]_basketball_team_recruitment.ipynb". Download & gunakan dataset NBA di repository ini dengan nama file: [__nba_players.csv__](https://github.com/ridhoaryo/Ujian_Modul3_JCDS_JKT_BDG/blob/master/nba_players.csv). Dan penjelasan tiap kolom dapat dilihat [di sini](https://www.kaggle.com/justinas/nba-players-data)
 
 1. __(POIN: 15)__ Lakukan _data preprocessing_, seperti menghapus kolom yang sekiranya tidak dibutuhkan, strategi apa yang akan digunakan untuk mengisi _missing value_, metode apa yang akan digunakan untuk melakukan encoding, feature apa yang bisa ditambahkan, dan lain-lain. Serta berikan penjelasan di setiap langkah yang Anda jalankan. 
 
