@@ -1,6 +1,6 @@
 ![purwadhika logo](https://static.wixstatic.com/media/2e6af2_f69a4271c3534ae1869a7ed63e278b2b~mv2.png/v1/fill/w_246,h_39,al_c,usm_0.66_1.00_0.01/2e6af2_f69a4271c3534ae1869a7ed63e278b2b~mv2.png)
 
-Selamat datang di Ujian Modul 3, JCDS Bandung dan Jakarta.
+Selamat datang di Ujian Modul 3.
 Pada ujian kali ini, Anda akan mengerjakan soal untuk kasus:
 - __Classification__: Hunting Basketball Player
 
@@ -10,9 +10,9 @@ Selamat mengerjakan!
 ![nba](https://images.unsplash.com/photo-1499754162586-08f451261482?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max)
 Anda adalah seorang Data Scientist di tim basket International yang berencana untuk merekrut beberapa pemain basket berbakat untuk meningkatkan performa tim. Tim Anda sering sekali menjadi tim juru kunci  dalam klasemen yang mengakibatkan sponsor dari perusahaan swasta dan profit penjualan merchandise pun semakin berkurang. Di sisi lain, tim Anda sudah terlalu lama menghamburkan uang untuk menggaji pemain-pemain yang kurang memiliki bakat. Sehingga para _stake holders_ merasa perlu adanya perombakan pemain, dengan harapan tim Anda lebih sering menang dan profit dari segala sektor pun meningkat.
 
-Baru-baru ini manager tim mengatakan ingin mengganti 10 pemain. Dan berharap Anda, sebagai Data Scientist, untuk dapat menemukan pemain baru yang berbakat dengan cepat.
+Baru-baru ini manager tim mengatakan berencana untuk mencari 10 pemain baru dari __NCAA (National Collegiate Athletic Association)__ Men's Basketball. Dan berharap Anda, sebagai Data Scientist, untuk dapat menemukan pemain baru yang berbakat dengan cepat. Pemain basket dari NCAA adalah pemain yang belum pernah main di NBA, sehingga mereka belum pernah ikut draft NBA sama sekali.
 
-Data pilihan pemain bisa Anda download di repository ini dengan nama file: [__new_players.csv__](https://github.com/ridhoaryo/Ujian_Modul3_JCDS_JKT_BDG/blob/master/new_players.csv). Dalam dataset ini tidak terdapat nama pemain. Maka Anda akan memilih mereka berdasarkan data-data historical mereka.
+Data pilihan pemain bisa Anda download di repository ini dengan nama file: [__new_players.csv__](https://github.com/ridhoaryo/Ujian_Modul3_JCDS_JKT_BDG/blob/master/new_players.csv). Dalam dataset ini tidak terdapat nama pemain. Maka Anda akan memilih mereka berdasarkan data-data performance mereka selama bermain di NCAA.
 
 Untuk memudahkan proses recruitment, Anda akan menggunakan dataset [__nba_players.csv__](https://github.com/ridhoaryo/Ujian_Modul3_JCDS_JKT_BDG/blob/master/nba_players.csv) sebagai dasar untuk membangun model machine learning untuk menentukan pemain-pemain baru yang pantas Anda rekrut. Kolom `potential_player` pada dataset NBA adalah acuan Anda. 0 berarti pemain tersebut tidak memiliki potensi dan cenderung untuk tidak direkrut. Dan sebaliknya.
 
@@ -22,7 +22,12 @@ Buatlah sebuah file __Jupyter Notebook (.ipynb)__, bernama "[Nama_Anda]_basketba
 
 1. __(POIN: 15)__ Lakukan _data preprocessing_, seperti menghapus kolom yang sekiranya tidak dibutuhkan, strategi apa yang akan digunakan untuk mengisi _missing value_, metode apa yang akan digunakan untuk melakukan encoding, feature apa yang bisa ditambahkan, dan lain-lain. Serta berikan penjelasan di setiap langkah yang Anda jalankan. 
 
-2. __(POIN: 20)__ Buatlah minimal __5 (lima)__ macam data visualisasi yang dapat menampilkan insight dari para pemain NBA baik yang di-cap sebagai potential player maupun yang bukan. Ceritakan juga insight yang Anda temukan.
+2. __(POIN: 20)__ Buatlah minimal __5 (lima)__ macam data visualisasi yang dapat menampilkan insight dari para pemain NBA baik yang di-cap sebagai potential player maupun yang bukan. Ceritakan juga insight yang Anda temukan. Minimal visualisasi yang perlu ditampilkan.
+    - Bagaimana distribusi score antara pemain yang potential dengan yang tidak potential?
+    - Bagaimana distribusi rebound antara pemain yang potential dengan yang tidak potential?
+    - Bagaimana distribusi assist antara pemain yang potential dengan yang tidak potential?
+    - Apakah tinggi dan berat pemain dapat mempengaruhi pemain dicap potential atau tidak?
+    - Kampus mana yang paling sering menelurkan pemain-pemain potential di NBA?
 
 3. __(POIN: 10)__ Buatlah training_validation dataset dan testing dataset. Silahkan Anda atur test_size / train_size maupun random_state sesuai dengan keinginan Anda.
 
