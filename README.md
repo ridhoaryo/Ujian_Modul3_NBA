@@ -12,7 +12,7 @@ Anda adalah seorang Data Scientist di tim basket International yang berencana un
 
 Baru-baru ini manager tim mengatakan berencana untuk mencari 10 pemain baru dari __NCAA (National Collegiate Athletic Association)__ Men's Basketball. Dan berharap Anda, sebagai Data Scientist, untuk dapat menemukan pemain baru yang berbakat dengan cepat. Pemain basket dari NCAA adalah pemain yang belum pernah main di NBA, sehingga mereka belum pernah ikut draft NBA sama sekali.
 
-Data pilihan pemain bisa Anda download di repository ini dengan nama file: [__new_players.csv__](https://github.com/ridhoaryo/Ujian_Modul3_JCDS_JKT_BDG/blob/master/new_players.csv). Dalam dataset ini tidak terdapat nama pemain. Maka Anda akan memilih mereka berdasarkan data-data performance mereka selama bermain di NCAA.
+Data pilihan pemain bisa Anda download di repository ini dengan nama file: [__new_players.csv__](https://github.com/ridhoaryo/Ujian_Modul3_JCDS_JKT_BDG/blob/master/new_players.csv). Dalam dataset ini terdapat pemain NCAA yang perlu untuk direkrut.
 
 Untuk memudahkan proses recruitment, Anda akan menggunakan dataset [__nba_players.csv__](https://github.com/ridhoaryo/Ujian_Modul3_JCDS_JKT_BDG/blob/master/nba_players.csv) sebagai dasar untuk membangun model machine learning untuk menentukan pemain-pemain baru yang pantas Anda rekrut. Kolom `potential_player` pada dataset NBA adalah acuan Anda. 0 berarti pemain tersebut tidak memiliki potensi dan cenderung untuk tidak direkrut. Dan sebaliknya.
 
